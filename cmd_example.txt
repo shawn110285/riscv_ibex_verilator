@@ -1,0 +1,34 @@
+
+shawnliu@shawnliu-Aspire-TC-780:/var/cpu_testbench/ibex$ ./ibex_tb -m ./sw_app/hello_test/hello_test.elf 
+Simulation of Ibex
+==================
+
+
+Simulation running, end by pressing CTRL-c.
+TOP.ibex_simple_system.u_top.u_ibex_tracer.unnamedblk1: Writing execution trace to trace_core_00000000.log
+Terminating simulation by software request.
+- /var/cpu_testbench/ibex/rtl/tb/simulator_ctrl.sv:93: Verilog $finish
+Received $finish() from Verilog, shutting down simulation.
+
+Simulation statistics
+=====================
+Executed cycles:  13141
+Wallclock time:   0.011 s
+Simulation speed: 1.19464e+06 cycles/s (1194.64 kHz)
+
+Performance Counters
+====================
+Cycles:                     482
+NONE:                       0
+Instructions Retired:       266
+LSU Busy:                   59
+Fetch Wait:                 63
+Loads:                      21
+Stores:                     38
+Jumps:                      46
+Conditional Branches:       53
+Taken Conditional Branches: 48
+Compressed Instructions:    182
+Multiply Wait:              0
+Divide Wait:                0
+shawnliu@shawnliu-Aspire-TC-780:/var/cpu_testbench/ibex$
